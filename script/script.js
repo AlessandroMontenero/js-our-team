@@ -36,6 +36,6 @@ for (let i = 0; i < teamMembers.length; i++) {
     let role = teamMembers[i].role
     let imgPath = teamMembers[i].imgSearch
     document.getElementById("cardsRow").innerHTML += 
-    '<div class="col-9 col-sm-6 col-lg-4" id="' + i +'"><div class="card text-center p-0 mx-1 my-3"><img src="./img/' + imgPath + '" alt="' + name +'" class="card-img-top"><div class="card-body"><h5 class="card-title">' + name + '</h5><p class="card-text">' + role + '</p></div></div></div>'
+    '<div class="col-11 col-sm-6 col-lg-4" id="' + i +'"><div class="card text-center p-0 mx-1 my-3"><img src="./img/' + imgPath + '" alt="' + name +'" class="card-img-top"><div class="card-body"><h5 class="card-title">' + name + '</h5><p class="card-text">' + role + '</p></div></div></div>'
 
 }
